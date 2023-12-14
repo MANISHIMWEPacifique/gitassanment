@@ -8,7 +8,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # Check if the argument is a positive integer
-If [ "$1"  -le  0 ]; then
+if [ "$1"  -le  0 ]; then
     echo "Error: Argument is not a positive integer." > error.txt
     exit 1
 fi
