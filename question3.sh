@@ -10,4 +10,4 @@ fi
 RESULT=$(( $1 ))
 
 # Print the result
-echo "$1 = $RESULT"
+echo "$1 = the results is: $RESULT"
