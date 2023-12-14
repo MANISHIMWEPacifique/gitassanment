@@ -10,7 +10,6 @@ fi
 FILECOUNT=$(find "$1" -type f | wc -l)
 DIRCOUNT=$(find "$1" -type d | wc -l)
 
-# Write the counts to a file
 echo "Number of files: $FILECOUNT" > accounts.txt
 echo "Number of subfolders: $DIRCOUNT" >> accounts.txt
 
